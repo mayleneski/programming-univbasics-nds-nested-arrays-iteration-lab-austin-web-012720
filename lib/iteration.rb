@@ -23,7 +23,7 @@ def find_greater_pair(src)
   row_index = 0
 
   while row_index < src.count do  
-    largest_number << array[row_index].sort.last
+    largest_number << src[row_index].sort.last
     row_index += 1
   end 
   
